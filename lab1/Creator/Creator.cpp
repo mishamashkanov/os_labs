@@ -47,7 +47,7 @@ static Employee ReadEmployeeFromConsole(int index) {
 
     std::cout << "  Name (max 9 chars): ";
     char nameBuffer[256];
-    if (!(std::cin >> nameBuffer)) {
+    if (!(std::cin >> std::setw(sizeof(emp.name)) >> nameBuffer)) {
         throw std::runtime_error("Failed to read employee name");
     }
     std::strncpy(emp.name, nameBuffer, sizeof(emp.name) - 1);
