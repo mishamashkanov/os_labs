@@ -1,7 +1,7 @@
 // Main.cpp
 // Orchestrator program: launches Creator and Reporter as child processes
 // using the Windows API, waits for their completion, and displays results.
-
+#define NOMINMAX
 #include <windows.h>
 #include <iostream>
 #include <fstream>

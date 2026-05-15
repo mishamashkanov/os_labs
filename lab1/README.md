@@ -1,6 +1,6 @@
 # Lab 1 — Process Creation (Windows API)
 
-**Subject:** Operating Systems / System Programming  
+**Subject:** Operating Systems   
 **Topic:** Creating processes using the Windows API
 
 ---
